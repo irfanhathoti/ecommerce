@@ -1,0 +1,104 @@
+.logo{
+    color: red;
+}
+
+li a{
+    font-family: sans-serif;
+}
+
+.mobile_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card{
+    margin: 5px;
+}
+
+.load_more{
+    color: deepskyblue;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.load_border{
+    background-color: deepskyblue;
+    height: 7px;
+    width: 100px;
+}
+
+.iphone_add{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.iphon_img{
+    width: 300px;
+    display: flex;
+    height: 300px;
+}
+
+.show_more{
+    text-decoration:underline 2px white;
+}
+.fa-star-half-stroke{
+    color: gold;
+}
+.fa-star{
+    color: gold;
+}
+::placeholder{
+    color: grey;
+}
+
+input{
+    outline-style: none;
+    height: 50px;
+    width: 350px;
+    border: 1px solid grey;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.search{
+    border: none;
+    height: 50px;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.footer_parent{
+    justify-items: center;
+    justify-content: space-around;
+}
+
+
+
+footer div h2{
+    letter-spacing: 5px;
+}
+
+.fa-twitter
+{
+    color: cornflowerblue;
+}
+
+.fa-facebook-f{
+    color: blue;
+}
+
+li{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
