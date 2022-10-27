@@ -10,6 +10,19 @@ li a{
     padding: 10px;
 }
 
+span{
+    padding: 5px;
+}
+.fa-magnifying-glass{
+    font-size: 15px;
+}
+
+.language{
+    width: 45px;
+    color: black;
+    font-weight: 500;
+}
+
 
 .main{
     border: 1px solid black;

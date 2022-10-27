@@ -6,12 +6,33 @@ li a{
     font-family: sans-serif;
 }
 
+span{
+    padding: 5px;
+}
+
+.nav-link{
+    color: black;
+    font-family: sans-serif;
+    font-stretch: semi-condensed;
+}
+.fa-magnifying-glass{
+    font-size: 15px;
+}
+
+.language{
+    width: 45px;
+    color: black;
+    font-weight: 500;
+}
+
+
 .mobile_items{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
+
 .card{
     margin: 5px;
 }
@@ -47,7 +68,6 @@ li a{
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    /* align-items: center; */
 }
 
 .iphon_img{
