@@ -21,24 +21,39 @@ li a{
     font-weight: 700;
     font-family: sans-serif;
 }
+
 .load_border{
     background-color: deepskyblue;
     height: 7px;
     width: 100px;
 }
 
+.latest_new{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 350px;
+    margin: 10px;
+}
+
+
 .iphone_add{
     font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .iphon_img{
     width: 300px;
     display: flex;
-    height: 300px;
+    height: 200px;
 }
 
 .show_more{
@@ -72,15 +87,18 @@ input{
     border-bottom-right-radius: 3px;
 }
 
-.footer_parent{
-    justify-items: center;
-    justify-content: space-around;
+.child_footer{
+    width: 350px;
+    margin: 20px;
 }
 
-
+body{
+    overflow-x: hidden;
+}
 
 footer div h2{
     letter-spacing: 5px;
+    color: grey;
 }
 
 .fa-twitter
