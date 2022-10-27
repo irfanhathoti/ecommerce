@@ -1,7 +1,53 @@
+.logo{
+    color: red;
+}
+li{
+    margin: 10px;
+}
+.text-bar{
+    font-size: 14px;
+}
+.nav-link{
+    color: black;
+    font-family: sans-serif;
+    font-stretch: semi-condensed;
+}
 .table-row{
     align-items: center;
 }
 
+::placeholder{
+    color: grey;
+    padding: 4px;
+}
+
+input{
+    outline-style: none;
+    height: 40px;
+    width: 200px;
+    border: 1px solid grey;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.search{
+    border: none;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.checkout{
+    margin-left: 60px;
+    padding: 6px;
+    width: 68%;
+    margin-top: 10px;
+}
+.set_marg{
+    margin-top: 37px;
+}
 .child_footer{
     width: 350px;
     margin: 20px;

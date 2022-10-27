@@ -27,6 +27,14 @@ li{
     justify-content: space-around;
 }
 
+.laptop_img1{
+    width: 370px;
+    display: flex;
+    height: 330px;
+    justify-content: space-around;
+}
+
+
 .parent{
     font-size: 13px;
 }
@@ -72,7 +80,7 @@ select{
     border-radius: 4px;
     display: inline-block;
     text-align: center;
-    width: 180px;
+    width: 170px;
 
 }
 
@@ -83,13 +91,15 @@ select{
     border-radius: 4px;
     color: white;
     display: inline-block;
-    width: 180px;
+    width: 170px;
     text-align: center;
 }
 
 .hero_container{
     background-color: rgba(128, 128, 128, 0.267);
-    width: 250px;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 10px;
 }
 
 .iphon_img{
@@ -111,12 +121,12 @@ footer div h2{
     color: grey;
 }
 
-.fa-twitter
+.twitr
 {
     color: cornflowerblue;
 }
 
-.fa-facebook-f{
+.facebk{
     color: blue;
 }
 
