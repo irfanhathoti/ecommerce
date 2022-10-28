@@ -33,6 +33,45 @@ span{
 
 }
 
+
+.child{
+    padding: 15px;
+}
+.box3{
+    background-color: tomato;
+}
+
+.box1{
+    background-color:whitesmoke;
+}
+
+
+
+.box2{
+    background-color:grey;
+}
+
+.parent{
+    position: absolute;
+    top: 90%;
+    left: 16%;
+    z-index: 10;
+}
+
+.best_seller{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 980px) {
+    .parent{
+        position: relative;
+        width: 250px;
+        margin-top: 10px;
+    }
+
+   
+}
+
 .card{
     margin: 5px;
 }
